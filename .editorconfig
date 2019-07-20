@@ -1,0 +1,16 @@
+[*]
+end_of_line = crlf
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+ 
+[*.cs]
+indent_style = tab
+csharp_indent_labels = one_less_than_current
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
+csharp_new_line_before_open_brace = all
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_around_binary_operators = before_and_after
