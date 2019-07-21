@@ -37,4 +37,4 @@ steps:
     command: 'push'
     packagesToPush: '**/bin/Release/*.nupkg;!**/bin/Release/*.symbols.nupkg'
     nuGetFeedType: 'external'
-    publishFeedCredentials: 'Nuget.org'
+    publishFeedCredentials: 'Nuget.org cwchapma.Redactor.*'
