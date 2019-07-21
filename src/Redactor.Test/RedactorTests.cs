@@ -49,7 +49,7 @@ namespace Redaction.Test
 			var passwords = new List<string>();
 			for (int i = 0; i < 1000000; i++)
 			{
-				passwords.Add($"password{i:000}");
+				passwords.Add($"password{i:000000}");
 			}
 
 			Parallel.ForEach(passwords, password =>
