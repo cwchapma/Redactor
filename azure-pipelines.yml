@@ -35,6 +35,6 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'push'
-    packagesToPush: 'Redactor/bin/Release/*.nupkg;!Redactor/bin/Release/*.symbols.nupkg'
+    packagesToPush: '**/bin/Release/*.nupkg;!**/bin/Release/*.symbols.nupkg'
     nuGetFeedType: 'external'
     publishFeedCredentials: 'Nuget.org'
